@@ -1,28 +1,83 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+body 
+{
+  background: #f7f9fc;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.enTete 
+{
+  background: #338BC2;
+  height: 300px;
+}
+.profil 
+{
+  margin-top:176px;
+  position:absolute;
+  margin-left: -120px;
+  z-index: 10;
+}
+.menu 
+{
+  text-transform: uppercase;
+}
+.btn-primary
+{
+  background:#318D7C;
+  width: 100%;
+  border-radius: 0px;
+}
+.container .row
+{
+  margin-top: 150px;
+}
+#categorie img
+{
+  width: 160px;
+  transition-duration: 0.3s;
+}
+
+#categorie img:hover
+{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#categorie 
+{
+  margin-bottom: 120px;
+}
+footer
+{
+ height: 250px;
+  background: #338BC2;
+}
+.logo 
+{
+  margin-top: 90px;
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media all and (max-width : 900px){
+
+  .profil {
+    margin-top: 40px;
+  }
+  .container .row
+  {
+    margin-top:10px;
+  }
+  #categorie .col-md-4
+  {
+    margin-top:60px;
+  }
 }

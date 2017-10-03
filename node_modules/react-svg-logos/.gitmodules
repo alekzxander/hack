@@ -1,0 +1,4 @@
+[submodule "src/logos"]
+	path = src/logos
+	url = git@github.com:gilbarbara/logos.git
+	branch = master
