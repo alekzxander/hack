@@ -6,7 +6,7 @@ export default class Menu extends Component {
     return (
 
 
-        <div className="row">
+        <div className="row ">
 
             <div className="col-md-6 ">
                 <Link className='btn btn-primary btn-lg' to={{ pathname: '/' }}>Espace Santé</Link>

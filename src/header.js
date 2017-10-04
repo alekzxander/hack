@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import profil from './images/man.png'
+import profil from './images/xd-2.png'
 // import logo from './images/logo.png'
 
 export default class Header extends Component {

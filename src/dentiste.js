@@ -19,21 +19,60 @@ export default class Dentiste extends Component {
                 </div>
 
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 horaire">
                 <h2>Prendre rendez-vous</h2>
                 <p><button className="btn btn-warning urgent btn-lg">Rendez vous</button></p>
+                <h2>Horaires</h2>
+                <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Lundi</th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                    <th>Samedi</th>
+                    <th>Dimanche</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Matin</th>
+                    <td>8h00 - 11h45</td>
+                    <td>8h00 - 11h45</td>
+                    <td>8h00 - 11h45</td>
+                    <td>8h00 - 11h45</td>
+                    <td>8h00 - 11h45</td>
+                    <td>8h00 - 11h45</td>
+                    <td>Fermé</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Aprés-midi</th>
+                    <td>13h30 - 18h45</td>
+                    <td>13h30 - 18h45</td>
+                    <td>13h30 - 18h45</td>
+                    <td>13h30 - 18h45</td>
+                    <td>13h30 - 18h45</td>
+                    <td>13h30 - 18h45</td>
+                    <td>Fermé</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
             </div>
         </div>
         <div className="trait"></div>
         <div className="row">
-            <div className="col-md-6">
-               
+            <div className="col-md-6 prevention">
+               <h2>Prevention :</h2>
+               <ul>
+                   <li>Pour évité les caries mangez moins de sucrerie</li>
+                   <li>Brossez-vous les dents 3 fois par jours</li>
+               </ul>
             </div>
             <div className="col-md-6">
-                <h3>Horaires</h3>
-                <div className="horaire">
-
-                </div>
+                
                <div className="map">
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14910.877158345642!2d55.44481059591998!3d-20.883361785267176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827fab69a28343%3A0xd87444a35748665!2sDr+Pierre-%C3%89tienne+BULTH%C3%89!5e0!3m2!1sfr!2sus!4v1507100018422"></iframe>
                </div>

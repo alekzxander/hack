@@ -4,6 +4,7 @@
 body 
 {
   background: #f7f9fc;
+  font-family: 'Roboto', sans-serif;
 }
 
 @keyframes App-logo-spin {
@@ -20,10 +21,12 @@ body
 .profil 
 {
   
-  margin-top: 70px;
+  margin-top: 65px;
   position:absolute;
   margin-left: -125px;
   z-index: 10;
+
+ 
 }
 .menu 
 {
@@ -127,14 +130,15 @@ footer
 .cabinet 
 {
   text-align: left;
-  font-size: 21px;
+  font-size: 25px;
   margin-top: 30px;
 }
 .urgent
 {
   width: 197px;
   margin-top: 30px;
-  margin-left: -80px;
+
+
 }
 .trait  
 {
@@ -142,11 +146,32 @@ footer
   width: 180px;
   background: #5aaedb;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: -80px;
   margin-top: 80px;
 
 }
 iframe 
 { 
-width: 300px; height: 300px; border:none;
+width: 500px; height: 300px; border:none;
+margin-bottom: 80px;
+}
+th
+{
+ padding: 6px;
+}
+.tableau
+{
+  text-align: left;
+}
+.prevention 
+{
+  text-align: left;
+}
+.prevention li
+{
+  font-size: 22px;
+}
+.horaire 
+{
+  text-align: left;
 }
