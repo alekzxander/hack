@@ -15,5 +15,25 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "medecin": [
+    {
+      "id": 1,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    },
+    {
+      "id": 2,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    },
+    {
+      "id": 3,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    }
+  ]
 }
