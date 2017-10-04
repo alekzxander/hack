@@ -10,8 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-         
+         <div className="container">
         <Header />
+        </div>
         </header>
         <div className="menu">
           <Menu />

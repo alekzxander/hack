@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Categorie from './categorie'
 import Perso from './perso'
+import Dentiste from './dentiste'
 import { Route } from 'react-router-dom';
 
 
@@ -10,7 +11,8 @@ export default class Main extends Component {
     return (
         <div>
             <Route exact path='/' component={Categorie} />
-            <Route exact path='/perso' component={Perso} />
+            <Route  path='/perso' component={Perso} />
+            <Route path='/dentiste' component={Dentiste} />
         </div>
     )
   }

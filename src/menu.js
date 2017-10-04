@@ -12,7 +12,7 @@ export default class Menu extends Component {
                 <Link className='btn btn-primary btn-lg' to={{ pathname: '/' }}>Espace Santé</Link>
             </div>
             <div className="col-md-6">
-                <Link className='btn btn-primary btn-lg' to={{ pathname: '/perso' }}>Espace Perso</Link>
+                <Link className='btn btn-primary perso btn-lg' to={{ pathname: '/perso' }}>Mes rendez-vous</Link>
 
             </div>
         </div>

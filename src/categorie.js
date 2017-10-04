@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import dentiste from './images/anesthesia.png'
 import doctor from './images/doctor-2.png'
 import oeil from './images/view.png'
@@ -13,12 +14,12 @@ export default class Categorie extends Component {
             <div id="categorie">
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={dentiste} alt="" />
+                        <Link to={{ pathname: '/dentiste' }}><img src={dentiste} alt="" /></Link>
                         <h3>Dentiste</h3>
                     </div>
                     <div className="col-md-4">
                         <img src={doctor} alt="" />
-                        <h3>Medecin</h3>
+                        <h3>Mon Medecin</h3>
                     </div>
                     <div className="col-md-4">
                         <img src={oeil} alt="" />
