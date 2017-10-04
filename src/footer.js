@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
-import Logo from './logo'
+
+import LogoTrans from './images/logoTrans.png'
 
 export default class Footer extends Component {
   render() {
     return (
       
-        <footer>
-        <Logo /> 
-        </footer>
+      <footer>
+        <div className="container">
+          <img src={LogoTrans} alt="" />
+        </div>
+      </footer>
   
     )
   }

@@ -77,6 +77,10 @@ body
 {
   background: #9FC916;
 }
+.perso:active {
+   background:black;
+}
+
 .container .row
 {
   margin-top: 150px;
@@ -107,6 +111,14 @@ footer
   margin-top: 90px;
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+.logoHeade 
+{
+  width: 300px;
+  position: absolute;
+  float: left;
+  margin-left: -600px;
+
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -238,4 +250,10 @@ i:hover
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   cursor: pointer;
+}
+footer img
+{
+  width: 300px;
+  margin-top: 40px;
+  float: right;
 }
