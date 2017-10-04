@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "medecin": [
+    {
+      "id": 1,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    },
+    {
+      "id": 2,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    },
+    {
+      "id": 3,
+      "nom": "jeack",
+      "prenom": "joh",
+      "tel": "0252000020"
+    }
+  ]
+}

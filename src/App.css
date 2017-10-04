@@ -32,6 +32,16 @@ body
 {
   text-transform: uppercase;
 }
+.row{
+  margin-right: 0px;
+  margin-left: 0px
+}
+.col-md-6{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .btn-primary
 {
   background:#9FC916;
