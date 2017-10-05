@@ -6,6 +6,8 @@ import Main from './main'
 import Footer from './footer'
 
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">

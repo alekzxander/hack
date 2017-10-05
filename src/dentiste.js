@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Horraire from './horraire'
 
 export default class Dentiste extends Component {
   render() {
@@ -20,46 +21,9 @@ export default class Dentiste extends Component {
 
             </div>
             <div className="col-md-6 horaire">
-                <h2>Prendre rendez-vous</h2>
-                <p><button className="btn btn-warning urgent btn-lg">Rendez vous</button></p>
+              
                 <h2>Horaires</h2>
-                <table class="table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Lundi</th>
-                    <th>Mardi</th>
-                    <th>Mercredi</th>
-                    <th>Jeudi</th>
-                    <th>Vendredi</th>
-                    <th>Samedi</th>
-                    <th>Dimanche</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Matin</th>
-                    <td>8h00 - 11h45</td>
-                    <td>8h00 - 11h45</td>
-                    <td>8h00 - 11h45</td>
-                    <td>8h00 - 11h45</td>
-                    <td>8h00 - 11h45</td>
-                    <td>8h00 - 11h45</td>
-                    <td>Fermé</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Aprés-midi</th>
-                    <td>13h30 - 18h45</td>
-                    <td>13h30 - 18h45</td>
-                    <td>13h30 - 18h45</td>
-                    <td>13h30 - 18h45</td>
-                    <td>13h30 - 18h45</td>
-                    <td>13h30 - 18h45</td>
-                    <td>Fermé</td>
-                  </tr>
-                  
-                </tbody>
-              </table>
+                <Horraire />
             </div>
         </div>
         <div className="trait"></div>
@@ -79,7 +43,6 @@ export default class Dentiste extends Component {
             </div>
         </div>
       </div>
-    
     )
   }
 }

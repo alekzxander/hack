@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import profil from './images/xd.png';
 import dentiste from './images/anesthesia.png'
 import doctor from './images/doctor-2.png'
 import oeil from './images/view.png'
@@ -10,19 +9,7 @@ export default class Perso extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="espace">Mon espace perso</h1>
-        <div className="row">
-          <div className="col-md-6">
-            <div className="name">
-
-              <img src={profil} alt="" />
-              <h1>Clemence Sandance</h1>
-            </div>
-          </div>
-          <div className="col-md-6">
-
-          </div>
-        </div>
+        
         <div className="row">
           <div className="col-md-4">
               <div className="carte">
@@ -35,7 +22,7 @@ export default class Perso extends Component {
                 <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
               
               </div>
           </div>
@@ -49,7 +36,7 @@ export default class Perso extends Component {
                 <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
               
               </div>
           </div>
@@ -63,7 +50,7 @@ export default class Perso extends Component {
                 <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>  
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
                              
               </div>
           </div>
@@ -79,7 +66,7 @@ export default class Perso extends Component {
              <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>    
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
                    
             </div>
           </div>
@@ -93,7 +80,7 @@ export default class Perso extends Component {
                 <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>     
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
                        
             </div>
           </div>
@@ -107,7 +94,7 @@ export default class Perso extends Component {
               <br/>
               <p><button className='btn btn-warning'>Plus d'info</button></p>
               <br/>
-              <p><i class="fa fa-phone fa-3x"></i><i class="fa fa-envelope fa-3x"></i></p>
+              <p><i className="fa fa-phone fa-3x"></i><i className="fa fa-envelope fa-3x"></i></p>
             </div>
           </div>
         </div>

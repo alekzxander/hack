@@ -16,24 +16,22 @@
   "profile": {
     "name": "typicode"
   },
-  "medecin": [
+  "symptome": [
     {
-      "id": 1,
-      "nom": "jeack",
-      "prenom": "joh",
-      "tel": "0252000020"
-    },
+      "fievre": "fievre",
+      "toux": "toux",
+      "mauxDeTete": "maux de tête",
+      "malAuDos": "mal au dos",
+      "nausee": "nausée"
+    }
+  ],
+
+  "autre": [
     {
-      "id": 2,
-      "nom": "jeack",
-      "prenom": "joh",
-      "tel": "0252000020"
-    },
-    {
-      "id": 3,
-      "nom": "jeack",
-      "prenom": "joh",
-      "tel": "0252000020"
+      "certificat": "certificat",
+      "arretDeTravail": "arret de travail",
+      "renouvellementOrrdonnance": "renouvellement d'ordonnance",
+      "demandeDeBilan": "demande de bilan"
     }
   ]
 }

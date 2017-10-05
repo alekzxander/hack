@@ -18,7 +18,7 @@ export default class Categorie extends Component {
                         <h3>Dentiste</h3>
                     </div>
                     <div className="col-md-4">
-                        <img src={doctor} alt="" />
+                        <Link to={{ pathname: '/medecin' }}><img src={doctor} alt="" /></Link>
                         <h3>Mon Medecin</h3>
                     </div>
                     <div className="col-md-4">
