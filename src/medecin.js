@@ -20,7 +20,6 @@ export default class Medecin extends Component {
                                 <li>Docteur <strong>Folamour</strong></li>
                             </ul>
                         </div>
-
                     </div>
                     <div className="col-md-6 horaire">
                         <h2>Horaires</h2>
@@ -37,10 +36,10 @@ export default class Medecin extends Component {
 
                 <div className="row">
                     <div className="col-md-6 prevention">
-                        <h2>Prevention :</h2>
+                        <h2>Prévention :</h2>
                         <ul>
-                            <li>Pour évité les caries mangez moins de sucrerie</li>
-                            <li>Brossez-vous les dents 3 fois par jours</li>
+                            <li>Pour votre santé, pratiquez une une activité physique régulière</li>
+                            <li>Manger 5 fruits et légumes par jour</li>
                         </ul>
                     </div>
                     <div className="col-md-6">

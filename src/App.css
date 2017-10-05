@@ -253,3 +253,23 @@ footer img
   margin-top: 40px;
   float: right;
 }
+label
+{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.thumbnail{
+  border-radius: 0px;
+}
+
+.bordure 
+{
+  color: white;
+  background:#9FC916;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 60px;
+  padding-top:15px;
+  margin-bottom: 0px
+}

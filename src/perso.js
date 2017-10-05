@@ -29,7 +29,7 @@ export default class Perso extends Component {
           <div className="col-md-4">
               <div className="carte">
                 <img src={doctor} alt=""/>
-                <h3>Mon medecin</h3>
+                <h3>Mon médecin</h3>
                 <p>Dr. Wharro</p>
                 <br/>
                 <h4>Saint-Denis 97400,<br/> 74 rue du moufia</h4>
@@ -73,7 +73,7 @@ export default class Perso extends Component {
           <div className="col-md-4">
             <div className="carte">
                 <img src={teddy} alt=""/>
-                <h3>Mon piediatre</h3>
+                <h3>Mon pédiatre</h3>
                 <p>Dr. Gaouner</p>
                 <br/>
                 <h4>Saint-Denis 97400,<br/> 74 rue du moufia</h4>  

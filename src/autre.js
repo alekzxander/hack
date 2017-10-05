@@ -34,7 +34,7 @@ export default class Autre extends Component {
                 demandeDeBilan: this.state.demandeDeBilan,
             })
         })
-        
+
         console.log("click")
     }
 
@@ -55,30 +55,30 @@ export default class Autre extends Component {
     render() {
         return (
             <div>
-            <div className="col-sm-4 col-md-5">
-                <div className="thumbnail">
-                    <div className="caption">
-                        <h3>Autre demande</h3>
-                        <form onSubmit={this.handleSubmit}>
-                            <label className="checkbox-inline">
-                                <input onChange={this.handleChange} type="checkbox" name="certificat" value="certificat" /> Certificat
+                <div className="col-sm-4 col-md-5">
+                    <h3 className="bordure">Autres demandes</h3>
+                    <div className="thumbnail">
+                        <div className="caption">
+                            <form onSubmit={this.handleSubmit}>
+                                <label className="checkbox">
+                                    <input onChange={this.handleChange} type="checkbox" name="certificat" value="certificat" /> Certificat
                                     </label>
-                            <label className="checkbox-inline">
-                                <input onChange={this.handleChange} type="checkbox" name="arretDeTravail" value="arret de travail" /> Arrêt de travail
+                                <label className="checkbox">
+                                    <input onChange={this.handleChange} type="checkbox" name="arretDeTravail" value="arret de travail" /> Arrêt de travail
                                     </label>
-                            <label className="checkbox-inline">
-                                <input onChange={this.handleChange} type="checkbox" name="renouvellementOrrdonnance" value="renouvellement ordonnance" /> Renouvellement ordonnance
+                                <label className="checkbox">
+                                    <input onChange={this.handleChange} type="checkbox" name="renouvellementOrrdonnance" value="renouvellement ordonnance" /> Renouvellement ordonnance
                                     </label>
-                            <label className="checkbox-inline">
-                                <input onChange={this.handleChange} type="checkbox" name="demandeDeBilan" value="demande de bilan" /> Demande de bilan
+                                <label className="checkbox">
+                                    <input onChange={this.handleChange} type="checkbox" name="demandeDeBilan" value="demande de bilan" /> Demande de bilan
                                     </label>
 
-                            <p><a onClick={this.handleClick} className="btn btn-warning">Envoyer</a></p>
-                        </form>
+                                <p><a onClick={this.handleClick} className="btn btn-warning">Envoyer</a></p>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>    
+            </div>
         )
     }
 }

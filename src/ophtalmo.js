@@ -9,7 +9,7 @@ export default class Ophtalmo extends Component {
                     <div className="col-md-6">
                         <div className="dent">
                             <p>Cabinet</p>
-                            <h3>Ophtalmologue</h3>
+                            <h3>Ophtalmo</h3>
                         </div>
                         <div className="cabinet">
                             <ul>

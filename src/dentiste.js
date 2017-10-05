@@ -29,7 +29,7 @@ export default class Dentiste extends Component {
                 <div className="trait"></div>
                 <div className="row">
                     <div className="col-md-6 prevention">
-                        <h2>Prevention :</h2>
+                        <h2>Prévention :</h2>
                         <ul>
                             <li>Pour votre santé, pratiquez une activité physique régulière</li>
                             <li>Manger 5 fruits et légumes par jour</li>
