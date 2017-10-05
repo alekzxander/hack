@@ -77,10 +77,6 @@ body
 {
   background: #9FC916;
 }
-.perso:active {
-   background:black;
-}
-
 .container .row
 {
   margin-top: 150px;
