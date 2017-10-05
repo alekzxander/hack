@@ -34,7 +34,7 @@ export default class Autre extends Component {
                 demandeDeBilan: this.state.demandeDeBilan,
             })
         })
-        console.log(this.state.autre)
+        
         console.log("click")
     }
 
@@ -46,6 +46,7 @@ export default class Autre extends Component {
         const target = e.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
+        console.log(name)
         this.setState({
             [name]: value
         });
@@ -54,7 +55,7 @@ export default class Autre extends Component {
     render() {
         return (
             <div>
-            <div className="col-sm-4 col-md-4">
+            <div className="col-sm-4 col-md-5">
                 <div className="thumbnail">
                     <div className="caption">
                         <h3>Autre demande</h3>
@@ -72,7 +73,7 @@ export default class Autre extends Component {
                                 <input onChange={this.handleChange} type="checkbox" name="demandeDeBilan" value="demande de bilan" /> Demande de bilan
                                     </label>
 
-                            <p><a onClick={this.handleClick} className="btn btn-warning">Button</a></p>
+                            <p><a onClick={this.handleClick} className="btn btn-warning">Envoyer</a></p>
                         </form>
                     </div>
                 </div>

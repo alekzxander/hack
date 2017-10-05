@@ -21,7 +21,6 @@ export default class Symptome extends Component {
     }
 
     handleSubmit(e) {
-        e.preventDefault();
 
         fetch('http://localhost:3000/symptome')
             .then((sympthome) => {
@@ -55,7 +54,7 @@ export default class Symptome extends Component {
         return (
 
             <div>
-                <div className="col-sm-6 col-md-8">
+                <div className="col-sm-6 col-md-7">
                     <div className="thumbnail">
                         <div className="caption">
                             <h3>Sympthôme</h3>
@@ -75,7 +74,7 @@ export default class Symptome extends Component {
                                 <label className="checkbox-inline">
                                     <input onChange={this.handleChange} type="checkbox" name="nausee" value="nausée" /> Nausée
                                     </label>
-                                <p><a onClick={this.handleSubmit} href="" className="btn btn-warning">Button</a></p>
+                                <p><a onClick={this.handleSubmit} href="" className="btn btn-warning">Envoyer</a></p>
                             </form>
                         </div>
                     </div>
